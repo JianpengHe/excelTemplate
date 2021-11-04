@@ -1,0 +1,5 @@
+按照Excel模板，使用JavaScript原生生成Excel的小工具
+使用方法：
+1、先根据自己实际需求修改example.xlsx
+2、同目录下CMD运行node excelTemplate.js ObjToExcel，在同目录下会生成一个ObjToExcel.js
+3、在自己的HTML里引入ObjToExcel.js，同时使用函数ObjToExcel(obj)就可以生成Excel文件
